@@ -8,7 +8,7 @@ package assignment3;
  * If a requirement is not implemented, you will receive 0 points.
  * Requirements are worth 50 points each.
  * 
- * @author myname
+ * @author Anish Anam
  * 
  * REQUIREMENT 1:
  * 
@@ -74,7 +74,7 @@ package assignment3;
  * 
  * It must call the protected constructor on the Animal and set:
  * 
- * legs to 4 and soundParameter to Squeek
+ * legs to 4 and soundParameter to Squeak
  * 
  * 
  * HUMAN CLASS REQUIREMENTS
@@ -93,7 +93,7 @@ package assignment3;
  * 
  * It must call the protected constructor on the Animal and set:
  * 
- * legs to 2 and soundParameter to Narly
+ * legs to 2 and soundParameter to Gnarly
  * 
  */
 public class Assignment3 {
