@@ -1,5 +1,8 @@
 package assignment3;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Instructions for this assignment.  Download this template from GitHub, fill in
  * the author comment below with your name and implement the requirements below.
@@ -99,6 +102,21 @@ package assignment3;
 public class Assignment3 {
 
     public static void main(String[] args) {
+        Animal dog = new Dog(4,"Woof");
+        Animal cat = new Cat(4,"Meow");
+        Animal humanFromTheSeventies = new Human(2,"Gnarly");
+        Animal mouse = new Mouse(4,"Squeak");
+        List<Animal> myAnimals = new ArrayList();
+            myAnimals.add(dog);
+            myAnimals.add(cat);
+            myAnimals.add(humanFromTheSeventies);
+            myAnimals.add(mouse);
+        for(int i =0; i < myAnimals.size(); i++) {
+            System.out.println(myAnimals.get(i).getLegs());
+            System.out.println(myAnimals.get(i).speak());
+            myAnimals.get(i).walkTo(0, 1);
+            myAnimals.get(i).whereAmI();
+                }
     }
     
 }
